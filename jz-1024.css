@@ -1,0 +1,110 @@
+
+/*
+
+Columns Fixed (f)
+
+*/
+
+.f1, /* set margins below all boxes, just for display purposes, delete this to make them sit flush */
+.f2,
+.f3,
+.f4
+{
+	padding-bottom:14px;
+}
+
+.f1, /* outer div width */
+.f2,
+.f3,
+.f4
+{
+	width:986px;
+}
+
+
+.f1 .jz-1 {
+	width:100%;
+}
+
+
+.f2 .jz-1 {
+	width:486px;
+	float:left;
+}
+.f2 .jz-2 {
+	width:486px;
+	/*
+	To set the correct position for the last column, add up all columns to the left and add on the padding.
+	In this case there's only 1 column before it: 486 + 14 = 500
+	*/
+	margin-left:500px;
+}
+
+
+.f3 .jz-1 {
+	width:318px;
+	float:left;
+}
+.f3 .jz-1-jz-2 {
+	width:652px;
+	margin-left:0px;
+	float:left;
+}
+.f3 .jz-2 {
+	width:318px;
+	margin-left:16px;
+	float:left;
+}
+.f3 .jz-2-jz-3 {
+	width:652px;
+	margin-left:334px;
+}
+.f3 .jz-3 {
+	width:318px;
+	/*
+	To set the correct position for the last column, add up all columns to the left and add on the padding.
+	In this case: 318 x 2 + 16 + 16 = 668
+	*/
+	margin-left:668px;
+}
+
+
+.f4 .jz-1 {
+	width:236px;
+	float:left;
+}
+.f4 .jz-1-jz-2 {
+	width:486px;
+	float:left;
+}
+.f4 .jz-1-jz-3 {
+	width:736px;
+	float:left;
+}
+.f4 .jz-2 {
+	width:236px;
+	margin-left:14px;
+	float:left;
+}
+.f4 .jz-2-jz-3 {
+	width:486px;
+	margin-left:14px;
+	float:left;
+}
+.f4 .jz-2-jz-4 {
+	width:736px;
+	margin-left:250px;
+}
+.f4 .jz-3 {
+	width:236px;
+	margin-left:14px;
+	float:left;
+}
+.f4 .jz-3-jz-4 {
+	width:486px;
+	margin-left:500px;
+}
+.f4 .jz-4 {
+	width:236px;
+	margin-left:750px;
+}
